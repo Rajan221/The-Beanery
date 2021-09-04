@@ -1,0 +1,68 @@
+/* navbar */
+.nav{
+    background-color: orange;
+    height: 100px;
+    width: 100%;
+}
+
+/*header*/
+.navhead{
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    font-style: italic;
+    margin-left: 100px;
+}
+.date{
+    font-size: 15px;
+    color: white;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+/*for icons*/ 
+.icons{
+    margin-left: 35%;
+}
+
+.fas{
+    color: black;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/*for description image*/
+.description_image{
+    height: 700px;
+    width: 100%;
+    z-index: -2;
+}
+.black{
+    background-color: rgba(0, 0, 0, 0.8);
+    height:700px;
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 100px;
+    z-index: 1;
+}
+
+/*logo*/
+.logo{
+    height: 300px;
+    width: 300px;
+    margin-top: -1000px;
+    margin-left: 100px;
+    z-index: 1;
+    position: relative;
+}
+
+.about_header{
+    
+    color: white;
+    z-index: 3;
+    position: relative;
+    font-size: 30px;
+    margin-left: 450px;
+    margin-top: -680px;
+}
